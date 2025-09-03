@@ -1,0 +1,7 @@
+{
+  "query": "query Query ($targetCurrencyCode: String!, $baseCurrencyCode: String!) { getCurrencyRate(targetCurrencyCode: $targetCurrencyCode, baseCurrencyCode: $baseCurrencyCode)  { rate targetCurrency { code } baseCurrency { code } } }",
+  "variables": {
+    "targetCurrencyCode": "%s",
+    "baseCurrencyCode": "%s"
+  }
+}
